@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#eee9df">
+  <meta name="theme-color" content="#0c1520">
   <meta name="description" content="Saltmere: İngilizceyi interaktif bir polisiye dizinin içinde öğren. İpuçlarını incele, şüphelileri dinle, kendi kararlarını ver. Yakında.">
   <meta property="og:title" content="Saltmere — Ders değil, dizi.">
   <meta property="og:description" content="İngilizceyi bir polisiye dizinin içinde yaşa. Altı sezon, yeni vakalar ve senin kararların. Yakında.">
@@ -12,22 +12,20 @@
   <link rel="canonical" href="https://saltmere.github.io/">
   <title>Saltmere — Ders değil, dizi.</title>
   <link rel="icon" type="image/png" href="icon_32.png">
-  <link rel="stylesheet" href="styles.css?v=20261017-editorial">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261017-depth">
+  <script src="app.js?v=20261017-depth" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#icerik">İçeriğe geç</a>
-  <header class="header">
-<div class="edition-line"><span>İNGİLİZCE POLİSİYE</span><span>Hikâyenin geçtiği yer: Saltmere, 1893</span><span>MOBİL UYGULAMA · YAKINDA</span></div>
-<a class="masthead" href="#baslangic" aria-label="Saltmere, sayfa başı">Saltmere<span aria-hidden="true">.</span></a>
-<div class="navigation-line"><span class="brand-note">Ders değil, dizi.</span><nav aria-label="Ana menü"><a href="#oynanis">Oynanış</a><a href="#sezonlar">Sezonlar</a><a href="#premium">Premium</a><a href="#sorular">Sorular</a></nav><a class="nav-cta" href="#deneme">İlk vakaya göz at</a></div>
-</header>
+  <header class="header"><a class="masthead" href="#baslangic" aria-label="Saltmere, sayfa başı">saltmere<span>.</span></a><nav aria-label="Ana menü"><a href="#oynanis">Oynanış</a><a href="#sezonlar">Sezonlar</a><a href="#premium">Premium</a><a href="#sorular">Sorular</a></nav><a class="nav-cta" href="#deneme">Hikâyeye dokun</a></header>
   <main id="icerik">
     <section class="hero" id="baslangic" aria-labelledby="hero-title">
-<div class="hero-copy"><span class="section-note">BİR ŞEHİR. BİR SIR. SEN.</span><h1 id="hero-title">İngilizceni<br>biraz <em>şüpheye</em><br>düşür.</h1><p class="hero-lead">Bir polisiye dizinin içindesin.<br>Bu kez başrolde sen varsın.</p><p class="hero-text">Şüphelileri dinle. İpuçlarını birleştir. Saltmere’in sırrını çözerken İngilizceyi hikâyenin içinde öğren.</p><a class="button" href="#deneme">İlk ipucunu incele</a><p class="hero-footnote">A1’den C2’ye · Kendi hızında</p></div>
-<figure class="hero-world"><div class="photo-label"><span>SALTMERE LİMANI</span><span>1893</span></div><img src="saltmere.webp" alt="Gaz lambalarının aydınlattığı Saltmere limanı; eski evler, yelkenliler ve sis içindeki deniz feneri." width="1344" height="768" fetchpriority="high"><figcaption><span>01 / OLAY YERİ</span><p>Sis dağılır.<br>Şüphe kalır.</p><small>Herkesin anlatacak bir hikâyesi var.</small></figcaption></figure>
+<div class="harbor-scene" aria-hidden="true"><div class="harbor-image"></div><div class="harbor-shade"></div><div class="mist mist-one"></div><div class="mist mist-two"></div><canvas id="atmosphere"></canvas></div>
+<div class="hero-copy"><span class="section-note">SALTMERE, 1893 · İNTERAKTİF İNGİLİZCE POLİSİYE</span><h1 id="hero-title">Bir sır var.<br>İçinde <em>sen</em> varsın.</h1><p class="hero-lead">Bir polisiye dizinin içine gir.<br>İngilizceyi hikâyeyi yaşarken öğren.</p><a class="button" href="#deneme">İlk ipucunu keşfet</a><p class="hero-footnote">Ders değil, dizi. · A1’den C2’ye</p></div>
+<div class="evidence-stage" aria-label="Hikâyeden bir kesit"><div class="evidence-orbit" aria-hidden="true"></div><div class="evidence-stack"><div class="dossier-back" aria-hidden="true"><span>SALTMERE</span><span>VAKA ARŞİVİ / 1893</span></div><a class="evidence-card" href="#deneme"><div class="card-meta"><span>TANIK İFADESİ</span><span>01</span></div><span class="card-caption">Her kelime bir iz bırakır.</span><p lang="en">She <span class="clue-word">…</span> here<br>every morning.</p><span class="card-bottom">Eksik kelimeyi sen bul.</span></a><div class="evidence-tag" aria-hidden="true"><span>A1</span><small>İlk ipucun seni bekliyor.</small></div></div></div>
+<div class="hero-bottom"><span>ALTI SEZON · BİR ŞEHİR</span><a href="#deneme">Hikâyenin içine gir</a><span>YAKINDA MOBİLDE</span></div>
 </section>
-<div class="story-strip"><span>Altı sezonluk bir polisiye.</span><span>Ezberden değil, meraktan.</span><a href="#sezonlar">A1 · A2 · B1 · B2 · C1 · C2</a></div>
+<div class="story-strip"><span>Altı sezonluk bir polisiye.</span><span>Merak et. Dinle. Çöz.</span><a href="#sezonlar">A1 · A2 · B1 · B2 · C1 · C2</a></div>
     <section class="demo section" id="deneme" aria-labelledby="demo-title">
       <div class="demo-intro"><span class="section-note">DEDEKTİFİN MASASINDAN</span><h2 id="demo-title">Tanık konuştu.<br>Bir kelime eksik.</h2><p>Tanığın her sabah ne yaptığını anlaman gerekiyor. Cümledeki boşluğu tamamla; doğru kelimenin neden önemli olduğuna birlikte bakalım.</p><p class="small-note">Bu, tanıtım için hazırlanmış örnek alıştırmadır; seviye testi değildir.</p></div>
       <div class="case-demo"><div class="case-top"><span>İFADE TUTANAĞI / 001</span><span class="case-level">A1</span></div><p class="english-line" lang="en">She <span id="answer-blank" class="blank" aria-label="boşluk">…</span> here every morning.</p><fieldset class="answers"><legend>Cümleye uygun kelimeyi seç.</legend><button type="button" data-answer="walk" lang="en">walk</button><button type="button" data-answer="walks" lang="en">walks</button><button type="button" data-answer="walking" lang="en">walking</button></fieldset><div class="feedback" id="feedback" role="status" aria-live="polite" aria-atomic="true"><p>Bir kelime seç. Yanlış cevapta da açıklamayla devam edebilirsin.</p></div><button type="button" class="reset-button" id="reset-demo" hidden>Yeniden dene</button></div>
