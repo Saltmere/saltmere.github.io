@@ -181,7 +181,10 @@ for (const b of $$('.copy')) {
       if (on && !reduced) {
         if (!v) {
           const nv = document.createElement('video');
-          Object.assign(nv, { muted: true, loop: true, playsInline: true, autoplay: true, src: `medya/${c.dataset.clip}.mp4` });
+          Object.assign(nv, { muted: true, loop: true, playsInline: true, autoplay: true });
+          for (const [ext, type] of [['mp4', 'video/mp4; codecs="avc1.64001F"'], ['webm', 'video/webm; codecs="vp9"']]) {
+            const s = document.createElement('source'); s.src = `medya/${c.dataset.clip}.${ext}`; s.type = type; nv.append(s);
+          }
           nv.setAttribute('muted', ''); nv.setAttribute('playsinline', '');
           nv.setAttribute('aria-hidden', 'true');
           nv.poster = c.querySelector('img').src;

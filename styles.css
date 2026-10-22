@@ -146,7 +146,9 @@ p{margin:0}
 .head a{color:var(--gas-hi)}
 
 /* Kart dili: pirinç kenarlı koyu dosya */
-.case,.plan,.dossier,.step,.closing-card{position:relative;border-radius:18px;background:linear-gradient(160deg,var(--card-top),var(--card-bot) 65%,#161e2e);box-shadow:0 0 0 1px var(--brass-faint) inset,0 26px 60px rgba(0,0,0,.42);transform-style:preserve-3d;transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s}
+.case,.plan,.dossier,.step,.closing-card{position:relative;border-radius:18px;background:linear-gradient(160deg,var(--card-top),var(--card-bot) 65%,#161e2e);box-shadow:0 0 0 1px var(--brass-faint) inset,0 26px 60px rgba(0,0,0,.42);transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s}
+/* Düğmesiz kartlarda içerik derinlikte öne çıkar; düğmeli kartlarda (deneme, kapanış) 3D bağlam yok: dokunuş hep doğru hedefe gider. */
+.plan,.dossier,.step{transform-style:preserve-3d}
 [data-tilt-soft]{transform:perspective(1100px) rotateX(var(--tx,0deg)) rotateY(var(--ty,0deg)) translateZ(0)}
 [data-tilt-soft]::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(420px circle at var(--gx,50%) var(--gy,0%),rgba(242,196,107,.13),transparent 60%);opacity:var(--go,0);transition:opacity .4s}
 
