@@ -2,48 +2,353 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0c1520">
-  <meta name="description" content="Saltmere: İngilizceyi interaktif bir polisiye dizinin içinde öğren. İpuçlarını incele, şüphelileri dinle, kendi kararlarını ver. Yakında.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0d1119">
+  <meta name="color-scheme" content="dark">
+  <title>Saltmere — Ders değil, dizi.</title>
+  <meta name="description" content="Saltmere: İngilizceyi 1893'te geçen interaktif bir polisiye dizinin içinde öğren. 84 bölüm, 6 sezon, A1'den C2'ye. Dinle, incele, sorgula, karar ver.">
   <meta property="og:title" content="Saltmere — Ders değil, dizi.">
-  <meta property="og:description" content="İngilizceyi bir polisiye dizinin içinde yaşa. Altı sezon, yeni vakalar ve senin kararların. Yakında.">
+  <meta property="og:description" content="İngilizceyi bir polisiye dizinin içinde yaşa. 84 bölüm, 6 sezon, A1'den C2'ye. Seslendirilmiş karakterler, sinematik sahneler, senin kararların.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://saltmere.github.io/">
+  <meta property="og:image" content="https://saltmere.github.io/saltmere-depth.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://saltmere.github.io/">
-  <title>Saltmere — Ders değil, dizi.</title>
-  <link rel="icon" type="image/png" href="icon_32.png">
-  <link rel="stylesheet" href="styles.css?v=20261017-depth">
-  <script src="app.js?v=20261017-depth" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="icon_32.png">
+  <link rel="apple-touch-icon" href="icon_192.png">
+  <link rel="preload" href="fonts/PlayfairDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=20261022">
+  <script src="app.js?v=20261022" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Saltmere: İngilizce Polisiye","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","inLanguage":"tr","description":"İngilizceyi 1893'te geçen interaktif bir polisiye dizinin içinde öğreten mobil uygulama. 84 bölüm, 6 sezon, A1'den C2'ye.","offers":{"@type":"Offer","price":"0","priceCurrency":"TRY"}}</script>
 </head>
 <body>
-  <a class="skip-link" href="#icerik">İçeriğe geç</a>
-  <header class="header"><a class="masthead" href="#baslangic" aria-label="Saltmere, sayfa başı">saltmere<span>.</span></a><nav aria-label="Ana menü"><a href="#oynanis">Oynanış</a><a href="#sezonlar">Sezonlar</a><a href="#premium">Premium</a><a href="#sorular">Sorular</a></nav><a class="nav-cta" href="#deneme">Hikâyeye dokun</a></header>
-  <main id="icerik">
-    <section class="hero" id="baslangic" aria-labelledby="hero-title">
-<div class="harbor-scene" aria-hidden="true"><div class="harbor-image"></div><div class="harbor-shade"></div><div class="mist mist-one"></div><div class="mist mist-two"></div><canvas id="atmosphere"></canvas></div>
-<div class="hero-copy"><span class="section-note">SALTMERE, 1893 · İNTERAKTİF İNGİLİZCE POLİSİYE</span><h1 id="hero-title">Bir sır var.<br>İçinde <em>sen</em> varsın.</h1><p class="hero-lead">Bir polisiye dizinin içine gir.<br>İngilizceyi hikâyeyi yaşarken öğren.</p><a class="button" href="#deneme">İlk ipucunu keşfet</a><p class="hero-footnote">Ders değil, dizi. · A1’den C2’ye</p></div>
-<div class="evidence-stage" aria-label="Hikâyeden bir kesit"><div class="evidence-orbit" aria-hidden="true"></div><div class="evidence-stack"><div class="dossier-back" aria-hidden="true"><span>SALTMERE</span><span>VAKA ARŞİVİ / 1893</span></div><a class="evidence-card" href="#deneme"><div class="card-meta"><span>TANIK İFADESİ</span><span>01</span></div><span class="card-caption">Her kelime bir iz bırakır.</span><p lang="en">She <span class="clue-word">…</span> here<br>every morning.</p><span class="card-bottom">Eksik kelimeyi sen bul.</span></a><div class="evidence-tag" aria-hidden="true"><span>A1</span><small>İlk ipucun seni bekliyor.</small></div></div></div>
-<div class="hero-bottom"><span>ALTI SEZON · BİR ŞEHİR</span><a href="#deneme">Hikâyenin içine gir</a><span>YAKINDA MOBİLDE</span></div>
-</section>
-<div class="story-strip"><span>Altı sezonluk bir polisiye.</span><span>Merak et. Dinle. Çöz.</span><a href="#sezonlar">A1 · A2 · B1 · B2 · C1 · C2</a></div>
-    <section class="demo section" id="deneme" aria-labelledby="demo-title">
-      <div class="demo-intro"><span class="section-note">DEDEKTİFİN MASASINDAN</span><h2 id="demo-title">Tanık konuştu.<br>Bir kelime eksik.</h2><p>Tanığın her sabah ne yaptığını anlaman gerekiyor. Cümledeki boşluğu tamamla; doğru kelimenin neden önemli olduğuna birlikte bakalım.</p><p class="small-note">Bu, tanıtım için hazırlanmış örnek alıştırmadır; seviye testi değildir.</p></div>
-      <div class="case-demo"><div class="case-top"><span>İFADE TUTANAĞI / 001</span><span class="case-level">A1</span></div><p class="english-line" lang="en">She <span id="answer-blank" class="blank" aria-label="boşluk">…</span> here every morning.</p><fieldset class="answers"><legend>Cümleye uygun kelimeyi seç.</legend><button type="button" data-answer="walk" lang="en">walk</button><button type="button" data-answer="walks" lang="en">walks</button><button type="button" data-answer="walking" lang="en">walking</button></fieldset><div class="feedback" id="feedback" role="status" aria-live="polite" aria-atomic="true"><p>Bir kelime seç. Yanlış cevapta da açıklamayla devam edebilirsin.</p></div><button type="button" class="reset-button" id="reset-demo" hidden>Yeniden dene</button></div>
-    </section>
-    <section class="play section" id="oynanis" aria-labelledby="play-title"><div class="section-heading"><h2 id="play-title"><span class="section-note">NASIL OYNANIR?</span>Vakayı sen çözersin.</h2><p>İngilizce, hikâyenin dışında bir ödev değil.<br>Hikâyeyi anlamanın anahtarı.</p></div><div class="play-actions"><article><span class="action-word">Dinle.</span><h3>Şüphelinin söylediklerine dikkat et.</h3><p>Diyalogların içindeki kelimeleri ve anlamı yakala. Anlamadığın yerde öğrenme yardımından yararlan.</p></article><article><span class="action-word">İncele.</span><h3>Kelimeleri ipuçlarıyla birleştir.</h3><p>Olay yerinde ayrıntı ara. Öğrendiğin kelimeleri Defter’inde yeniden bul, eski vakalara geri dön.</p></article><article><span class="action-word">Karar ver.</span><h3>Kanıtı gördün. Peki ne söyleyeceksin?</h3><p>Seçimlerin konuşmaların tonunu ve ilişkileri etkiler. Kendi hızında düşün; seçimlerde geri sayım yok.</p></article></div></section>
-    <section class="journey section" id="sezonlar" aria-labelledby="journey-title"><div class="section-heading"><h2 id="journey-title"><span class="section-note">SEZON ARŞİVİ</span>Bir şehir. Altı sezon.</h2><p>A1’den C2’ye uzanan öğrenme yolculuğu.<br>Her sezonda yeni bir vaka dosyası, yeni bir dil odağı.</p></div><ol class="seasons"><li><span class="level">A1</span><h3>İlk kelimeler</h3><p>İsimler, basit cümleler ve ilk ipuçları.</p></li><li><span class="level">A2</span><h3>Daha çok ayrıntı</h3><p>Günlük olayları ve geçmişte olanları anlat.</p></li><li><span class="level">B1</span><h3>Kendi cümlelerin</h3><p>Bir fikri açıkla, soru sor, nedenini söyle.</p></li><li><span class="level">B2</span><h3>Satır araları</h3><p>İfadeleri karşılaştır, olasılıkları tartış.</p></li><li class="premium-season"><span class="level">C1</span><span class="season-badge">PREMIUM</span><h3>İnce anlamlar</h3><p>Bakış açısını, vurguyu ve dilin nüanslarını keşfet.</p></li><li class="final-season premium-season"><span class="level">C2</span><span class="season-badge">PREMIUM</span><h3>Son dosya</h3><p>Uzun yolculuğun son sezonu. Hikâyenin son sözü.</p></li></ol><div class="access-note"><p><strong>Ücretsiz erişim:</strong> A1, A2, B1 ve B2 sezonları.</p><p><strong>Yalnızca Premium:</strong> C1 ve C2 sezonları. Premium olmadan bu iki sezon açılmaz. C1’e geçiş ayrıca B2 sınavını geçmeyi gerektirir.</p></div><p class="level-disclaimer">Sezonlar CEFR seviyelerine göre tasarlanır; uygulama resmi dil sertifikası veya belirli bir sürede seviye kazanma garantisi vermez.</p></section>
-    <section class="silas section" aria-labelledby="silas-title"><figure class="silas-portrait"><span class="portrait-id">S. KESTREL / DEDEKTİF</span><img src="silas.webp" alt="Silas Kestrel, melon şapkası ve uzun gri paltosuyla açık avuçlu bir karşılama jesti yapıyor." width="1024" height="1536" loading="lazy"></figure><div class="silas-copy"><span class="section-note">KİMLİK DOSYASI / SILAS KESTREL</span><h2 id="silas-title">Her dedektifin<br>bir ortağı vardır.</h2><p>Saltmere’e yeni gelen bir dedektif. Keskin gözler, sakin bir ses ve her ayrıntıya ikinci kez bakma alışkanlığı.</p><blockquote><p lang="en">“Let’s look again.”</p><footer>Bir daha bakalım.</footer></blockquote><p>Onun yanında olay yerini inceleyecek, şüphelileri dinleyecek ve kendi kararlarını vereceksin.</p><a class="text-link" href="#deneme">İlk cümleni tamamla</a></div></section>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
 
-    <section class="plans section" id="premium" aria-labelledby="plans-title">
-      <div class="section-heading"><h2 id="plans-title"><span class="section-note">HİKÂYEYE DEVAM</span>İlk ipucundan<br>son duruşmaya.</h2><p>Reklam izleyerek yeni bölümler aç.<br>Ya da Premium ile reklamsız devam et.</p></div>
-      <div class="plan-grid">
-        <article class="plan-card free-plan"><span class="plan-label">ÜCRETSİZ</span><h3>Her gün yeni ipuçları.</h3><p class="plan-price">0 TL</p><p>A1’den B2’ye kadar hikâyeye katıl.</p><ul><li>Reklam izleyerek günde en fazla 10 yeni vaka veya bölüm açma</li><li>A1, A2, B1 ve B2 sezonlarına erişim</li><li>Bitirdiğin vakaları yeniden oynama ve Defter’indeki kelimelere dönme</li></ul><p class="plan-note">C1 ve C2 sezonları ücretsiz planda açılmaz.</p></article>
-        <article class="plan-card premium-plan"><span class="plan-label">SALTMERE PREMIUM</span><h3>Davanın sonu</h3><ul><li>C1 ve C2: son iki sezon, 28 bölüm. Dava, mahkeme ve büyük final.</li><li>Her yerde reklamsız: ilk dört sezon dahil.</li><li>Günlük sınır yok: beklemeden istediğin kadar vaka.</li><li>Tek seferlik satın alma. Abonelik yok.</li><li>C1’e geçmek için B2 sınavını geçmen gerekir; satın alma sınavın yerine geçmez.</li></ul><div class="price-block"><p class="plan-price">244,99 <span>₺</span> <s>349,99 ₺</s></p><p class="launch-label">Çıkış indirimi: ilk 2 hafta %30</p></div><button class="store-soon" type="button" disabled>Mağazada yakında</button></article>
+  <header class="bar" id="ust">
+    <a class="brand" href="#baslangic" aria-label="Saltmere, sayfa başı">
+      <img src="img/amblem.png" alt="" width="30" height="33">
+      <span>SALTMERE</span>
+    </a>
+    <nav aria-label="Ana menü">
+      <a href="#deneme">Dene</a>
+      <a href="#sahneler">Sahneler</a>
+      <a href="#sezonlar">Sezonlar</a>
+      <a href="#kadro">Kadro</a>
+      <a href="#premium">Premium</a>
+      <a href="#sorular">Sorular</a>
+    </nav>
+    <a class="bar-cta" href="#indir">İndir</a>
+  </header>
+
+  <main id="icerik">
+    <!-- Canlı liman -->
+    <section class="hero" id="baslangic" aria-labelledby="hero-baslik">
+      <div class="harbor" aria-hidden="true">
+        <div class="plate" data-depth="0.35">
+          <img class="plate-img" src="saltmere-depth.jpg" alt="" width="1672" height="941" fetchpriority="high">
+          <span class="beam"><i></i><i></i></span>
+          <span class="lamp lamp-light"></span>
+          <span class="lamp lamp-street"></span>
+          <span class="shimmer"></span>
+        </div>
+        <span class="fog fog-a" data-depth="0.7"></span>
+        <span class="fog fog-b" data-depth="1"></span>
+        <canvas id="tozlar" data-depth="1.4"></canvas>
+        <span class="shade"></span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="kicker">SALTMERE · 1893 · İNGİLİZCE POLİSİYE</p>
+        <h1 id="hero-baslik">Bir sır var.<br>İçinde <em>sen</em> varsın.</h1>
+        <p class="lead">İngilizceyi çalışarak değil, bir polisiye dizinin içinde yaşayarak öğren. Sisli bir liman kenti, seslendirilmiş karakterler ve her gün yeni bir vaka.</p>
+        <div class="stores" data-stores>
+          <a class="store" data-store="ios" href="#indir"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18.5h4"/></svg><span><small>iPhone için</small>App Store</span><b class="soon">Yakında</b></a>
+          <a class="store" data-store="android" href="#indir"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5v17l14-8.5z"/></svg><span><small>Android için</small>Google Play</span><b class="soon">Yakında</b></a>
+        </div>
+        <p class="hero-note"><a href="#deneme">Önce burada bir vakaya dokun ↓</a></p>
+      </div>
+
+      <div class="hero-device">
+        <div class="device-rig" data-tilt>
+          <div class="file-card" aria-hidden="true">
+            <span class="fc-kicker">SALTMERE POLİS DOSYASI · A1</span>
+            <span class="fc-no">No. 01</span>
+            <span class="fc-title" lang="en">The Silver Spoon</span>
+            <span class="fc-tr">Gümüş Kaşık</span>
+            <span class="seal"></span>
+          </div>
+          <div class="phone" role="img" aria-label="Uygulamadan bir sahne: Silas Kestrel trenle Saltmere'e geliyor">
+            <span class="notch" aria-hidden="true"></span>
+            <video class="phone-video" src="medya/silas_gelis.mp4" poster="medya/silas_gelis.webp" muted loop playsinline autoplay preload="metadata" aria-hidden="true"></video>
+            <div class="phone-ui" aria-hidden="true">
+              <span class="pu-top">A1 · Sahne 1 / 8</span>
+              <span class="pu-line"><b>Mrs. Bramble</b><span lang="en">Hello! Are you Mr. Kestrel?</span></span>
+            </div>
+          </div>
+          <div class="note-tag" aria-hidden="true"><span lang="en">Let's look again.</span><small>Bir daha bakalım.</small></div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#rakamlar" aria-label="Aşağı kaydır"><span></span></a>
+    </section>
+
+    <!-- Rakamlar -->
+    <section class="facts" id="rakamlar" aria-label="Saltmere'de neler var">
+      <dl>
+        <div><dt>84</dt><dd>bölüm, 6 sezon</dd></div>
+        <div><dt>A1→C2</dt><dd>sıfırdan ileri seviyeye</dd></div>
+        <div><dt>2.000+</dt><dd>seslendirilmiş replik</dd></div>
+        <div><dt>30</dt><dd>sinematik kilit an</dd></div>
+        <div><dt>0</dt><dd>geri sayım, ceza, can kaybı</dd></div>
+      </dl>
+    </section>
+
+    <!-- Dene -->
+    <section class="section try" id="deneme" aria-labelledby="deneme-baslik">
+      <div class="head">
+        <p class="kicker">İFADE TUTANAĞI · A1</p>
+        <h2 id="deneme-baslik">Tanık konuşuyor.<br>Sen dinliyorsun.</h2>
+        <p>Bu iki adım doğrudan ilk vakadan. Sesler uygulamadaki karakter sesleri, sahne de oyundaki sahafın kendisi.</p>
+      </div>
+
+      <div class="try-grid">
+        <article class="case" data-tilt-soft>
+          <header class="case-top"><span>ADIM 1 · DİNLE VE TAMAMLA</span><span class="tag">The Lantern</span></header>
+          <p class="who"><b>Pip</b> · cebindekileri gösteriyor</p>
+          <button class="listen" type="button" data-audio="ses/pip.mp3">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 8.5a5 5 0 0 1 0 7"/><path d="M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>
+            <span>Pip'i dinle</span>
+          </button>
+          <p class="sentence" lang="en">My hands <span class="slot" id="slot">…</span> empty. Look!</p>
+          <div class="choices" role="group" aria-label="Boşluğa gelecek kelime">
+            <button type="button" data-word="am" lang="en">am</button>
+            <button type="button" data-word="is" lang="en">is</button>
+            <button type="button" data-word="are" lang="en">are</button>
+          </div>
+          <div class="feedback" id="geri-bildirim" aria-live="polite">
+            <p>Önce dinle, sonra kelimeyi seç. Yanlışta ceza yok; Silas ipucu verir.</p>
+          </div>
+        </article>
+
+        <article class="case hunt">
+          <header class="case-top"><span>ADIM 2 · SAHNEDE BUL</span><span class="tag">Sahaf</span></header>
+          <p class="who">Mrs. Bramble'ın sahafı. Dokun, bul, öğren.</p>
+          <p class="hunt-ask">Sahnede bul: <b lang="en" id="hedef">window</b> <span class="hunt-count" id="sayac">0 / 3</span></p>
+          <div class="room" id="oda">
+            <img src="img/sahne/bookshop.webp" alt="Sahafın izometrik görünümü: kitap rafları, pencereler, masa ve sandalyeler." width="720" height="1260" loading="lazy">
+          </div>
+          <div class="feedback" id="av-geri" aria-live="polite"><p>Odada pencereyi bul ve üstüne dokun.</p></div>
+        </article>
       </div>
     </section>
-<section class="faq section" id="sorular" aria-labelledby="faq-title"><h2 id="faq-title"><span class="section-note">KENAR NOTLARI</span>Aklındaki sorular.</h2><div class="faq-list"><details><summary>İngilizceyi hiç bilmiyorsam başlayabilir miyim?</summary><p>Evet. A1 sezonu ilk kelimeler ve basit ifadelerle başlar. İstersen başlangıçta kısa seviye denemesini atlayıp sıfırdan başlayabilirsin.</p></details><details><summary>İngilizcem daha iyiyse hikâyenin başını kaçırır mıyım?</summary><p>Baştan başlayıp alt sezonları Hızlı Mod’da oynayabilir veya erişebildiğin seviyedeki sezona geçip önceki sezonların özetini izleyebilirsin. C1’e geçiş için Premium’a sahip olman ve B2 sınavını geçmen gerekir. Tamamladığın sezonlara Arşiv’den dönebilirsin.</p></details><details><summary>Yanlış cevap verirsem ne olur?</summary><p>Hedef, seni oyundan çıkarmak değil, öğrenmene yardım etmek. Açıklamalar ve ipuçlarıyla tekrar denersin. Üç hata sonrasında zorunlu bölüm sıfırlama yok.</p></details><details><summary>Her gün ne kadar oynayabilirim?</summary><p>Ücretsiz planda reklam izleyerek günde en fazla 10 yeni vaka veya bölüm açabilirsin. Premium’da günlük vaka sınırı yoktur; reklam izlemeden istediğin kadar vaka oynayabilirsin. Sezon geçiş sınavlarını yine geçmen gerekir. Bitirdiğin vakaları tekrar oynayabilir, Defter’indeki kelimelere istediğin zaman dönebilirsin.</p></details><details><summary>C1 ve C2 için Premium gerekli mi?</summary><p>Evet. A1–B2 sezonları ücretsiz planda erişilebilir. C1 ve C2 yalnızca Premium ile açılır; reklam izlemek bu iki sezonun kilidini açmaz. C1’e geçmek için B2 sınavını da geçmen gerekir. Premium satın almak sınavın yerine geçmez.</p></details><details><summary>Premium ne kadar, abonelik mi?</summary><p>Premium tek seferlik satın almadır; abonelik yoktur. Normal fiyatı 349,99 TL’dir. Uygulamanın çıkışından itibaren ilk iki hafta %30 indirimle 244,99 TL olacak. İlk dört sezon dahil her yerde reklamsız kullanım, günlük vaka sınırı olmadan oynama ve C1–C2 sezonlarına erişim sunar. Sezon geçiş sınavları geçerliliğini korur.</p></details><details><summary>Uygulamayı nereden indirebilirim?</summary><p>Saltmere henüz mağazalarda yayınlanmadı. Bu nedenle burada aktif indirme bağlantısı yok. Mağaza bilgileri hazır olduğunda bu sayfaya eklenecek.</p></details></div></section>
-    <section class="closing section" aria-labelledby="closing-title"><h2 id="closing-title">Merak ettiğin<br>yerden <em>başla.</em></h2><div><p>Bir sonraki bölümde ne olacağını merak ederken,<br>İngilizceyle biraz daha tanış.</p><a class="button" href="#deneme">Denemeye dön</a><p class="coming-soon">Saltmere: İngilizce Polisiye · Yakında</p></div></section>
+
+    <!-- Nasıl oynanır -->
+    <section class="section how" id="oynanis" aria-labelledby="nasil-baslik">
+      <div class="head">
+        <p class="kicker">NASIL OYNANIR</p>
+        <h2 id="nasil-baslik">Vakayı sen çözersin.</h2>
+        <p>İngilizce hikâyenin dışında bir ödev değil, hikâyeyi çözmenin anahtarı.</p>
+      </div>
+      <ol class="steps">
+        <li class="step" data-tilt-soft>
+          <img src="img/sahne/the_lantern.webp" alt="" width="720" height="1260" loading="lazy">
+          <div><span class="step-no">01</span><h3>Dinle</h3><p>Her replik seslendirilmiş. Anlamadığın kelimeye dokun, Türkçesi gelsin; istersen Defter'ine ekle.</p></div>
+        </li>
+        <li class="step" data-tilt-soft>
+          <img src="img/sahne/street_night.webp" alt="" width="720" height="1260" loading="lazy">
+          <div><span class="step-no">02</span><h3>İncele</h3><p>Olay yerinde nesneleri bul, ipuçlarını panoya as. Kelimeler bir listede değil, sahnenin içinde.</p></div>
+        </li>
+        <li class="step" data-tilt-soft>
+          <img src="img/sahne/harbour_office.webp" alt="" width="720" height="1260" loading="lazy">
+          <div><span class="step-no">03</span><h3>Sorgula</h3><p>Şüphelileri tek tek dinle, doğru soruyu İngilizce kur, ifadelerdeki çelişkiyi yakala.</p></div>
+        </li>
+        <li class="step" data-tilt-soft>
+          <img src="img/sahne/workshop.webp" alt="" width="720" height="1260" loading="lazy">
+          <div><span class="step-no">04</span><h3>Karar ver</h3><p>Seçimlerin ilişkileri değiştirir. Geri sayım yok; düşünmek için istediğin kadar vaktin var.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Sinematik sahneler -->
+    <section class="section reel" id="sahneler" aria-labelledby="sahne-baslik">
+      <div class="head">
+        <p class="kicker">KİLİT ANLAR</p>
+        <h2 id="sahne-baslik">Dönüm noktaları<br>hareketli sahnelerle.</h2>
+        <p>Döndür, seç, izle. Hikâyenin en önemli anları uygulamada kısa sinematik sahnelerle anlatılır.</p>
+      </div>
+      <div class="carousel">
+        <div class="stage3d">
+          <div class="ring3d" id="ring3d">
+            <figure class="clip" data-clip="silas_gelis"><img src="medya/silas_gelis.webp" alt="Silas tren istasyonunda" width="540" height="960" loading="lazy"><figcaption><b>Varış</b>Silas Saltmere'e iner.</figcaption></figure>
+            <figure class="clip" data-clip="s1b05_moth_pencere"><img src="medya/s1b05_moth_pencere.webp" alt="Maskeli hırsız bir odada" width="540" height="960" loading="lazy"><figcaption><b>The Moth</b>Gece hırsızı ay ışığında.</figcaption></figure>
+            <figure class="clip" data-clip="kasik_bulundu"><img src="medya/kasik_bulundu.webp" alt="The Lantern çay salonu kalabalık" width="540" height="960" loading="lazy"><figcaption><b>The Lantern</b>Kayıp gümüş kaşığın izi.</figcaption></figure>
+            <figure class="clip" data-clip="l2_fener"><img src="medya/l2_fener.webp" alt="Fırtınada deniz feneri" width="540" height="960" loading="lazy"><figcaption><b>Fener</b>Fırtınada yanıp sönen işaret.</figcaption></figure>
+            <figure class="clip" data-clip="l2_yagmur"><img src="medya/l2_yagmur.webp" alt="Yağmurda koşan pelerinli bir figür" width="540" height="960" loading="lazy"><figcaption><b>Kaçış</b>Yağmurda ıslak kaldırımlar.</figcaption></figure>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button type="button" id="onceki" aria-label="Önceki sahne">‹</button>
+          <span id="sahne-adi" aria-live="polite">Varış</span>
+          <button type="button" id="sonraki" aria-label="Sonraki sahne">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sezonlar -->
+    <section class="section seasons" id="sezonlar" aria-labelledby="sezon-baslik">
+      <div class="head">
+        <p class="kicker">VAKA ARŞİVİ</p>
+        <h2 id="sezon-baslik">Bir şehir. Altı sezon.</h2>
+        <p>Her sezon bir CEFR seviyesi ve şehrin bir semti. Sezon finali aynı zamanda seviye sınavı: geçince yeni semt açılır.</p>
+      </div>
+      <ol class="path" aria-hidden="true"><li>A1</li><li>A2</li><li>B1</li><li>B2</li><li class="p">C1</li><li class="p">C2</li></ol>
+      <ul class="dossiers">
+        <li class="dossier" data-tilt-soft>
+          <img src="img/sahne/bookshop.webp" alt="" width="720" height="1260" loading="lazy">
+          <div class="d-body"><span class="d-lvl">A1</span><span class="d-season">SEZON 1 · OLD TOWN</span><h3>Yeni gelen dedektif</h3><p>Saltmere'de ilk gün: kayıp bir gümüş kaşık ve geceleri çatılarda dolaşan bir hırsız.</p><p class="d-lang"><b>Dil:</b> to be, şimdiki zaman, emirler, ilk sorular</p></div>
+        </li>
+        <li class="dossier" data-tilt-soft>
+          <img src="img/sahne/docks.webp" alt="" width="720" height="1260" loading="lazy">
+          <div class="d-body"><span class="d-lvl">A2</span><span class="d-season">SEZON 2 · THE HARBOUR</span><h3>Sisli liman</h3><p>Pulsuz bir mektup, gece yanıp sönen fener ve iskelede kaybolan izler.</p><p class="d-lang"><b>Dil:</b> geçmiş zaman, karşılaştırma, olay anlatma</p></div>
+        </li>
+        <li class="dossier" data-tilt-soft>
+          <img src="img/sahne/gallery.webp" alt="" width="720" height="1260" loading="lazy">
+          <div class="d-body"><span class="d-lvl">B1</span><span class="d-season">SEZON 3 · GALLERY QUARTER</span><h3>Sahte tablolar</h3><p>Galeriler, müzayedeler ve bir taklitçi. Kim gerçek, kim kopya?</p><p class="d-lang"><b>Dil:</b> must / can't, used to, edilgen, ikna etmek</p></div>
+        </li>
+        <li class="dossier" data-tilt-soft>
+          <img src="img/sahne/clock_shop.webp" alt="" width="720" height="1260" loading="lazy">
+          <div class="d-body"><span class="d-lvl">B2</span><span class="d-season">SEZON 4 · KINGSLEY HILL</span><h3>Konaklar ve saatler</h3><p>Zengin evlerin kapalı kapıları ardında bir maske.</p><p class="d-lang"><b>Dil:</b> wish, koşul cümleleri, öbek fiiller</p></div>
+        </li>
+        <li class="dossier premium" data-tilt-soft>
+          <img src="img/sahne/courtroom.webp" alt="" width="720" height="1260" loading="lazy">
+          <div class="d-body"><span class="d-lvl">C1</span><span class="d-season">SEZON 5 · CIVIC CENTRE</span><h3>Dava</h3><p>Mahkeme salonunda her kelime bir kanıt. Çapraz sorguda soruları sen kurarsın.</p><p class="d-lang"><b>Dil:</b> resmî dil, devrik yapılar, temkinli ifade</p></div>
+          <span class="wax">Premium</span>
+        </li>
+        <li class="dossier premium" data-tilt-soft>
+          <img src="img/sahne/train_station.webp" alt="" width="720" height="1260" loading="lazy">
+          <div class="d-body"><span class="d-lvl">C2</span><span class="d-season">SEZON 6 · CENTRAL STATION</span><h3>Son mektup</h3><p>Bütün iplerin birleştiği büyük final. Son tren, son mektup.</p><p class="d-lang"><b>Dil:</b> üslup, ima, edebî metin okuma</p></div>
+          <span class="wax">Premium</span>
+        </li>
+      </ul>
+      <p class="fine">Sezonlar CEFR seviyelerine göre tasarlanmıştır. Uygulama resmî bir dil sertifikası vermez ve belirli bir sürede seviye kazanma garantisi vermez.</p>
+    </section>
+
+    <!-- Kadro -->
+    <section class="section cast" id="kadro" aria-labelledby="kadro-baslik">
+      <div class="head">
+        <p class="kicker">SALTMERE DOSYALARI</p>
+        <h2 id="kadro-baslik">Kiminle karşılaşacaksın?</h2>
+        <p>Kartlara dokun, arkasını çevir. Spoiler yok; yalnızca ilk izlenimler.</p>
+      </div>
+      <ul class="cards">
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/silas_kestrel.webp" alt="" width="480" height="640" loading="lazy"><b>Silas Kestrel</b><small>Dedektif</small></span><span class="f backside"><b>Silas Kestrel</b><span>Londra'dan Saltmere'e yeni gelen dedektif. Çok iyi gözlem yapar ama kararlarını iki kez düşünür.</span><q lang="en">Let's look again.</q></span></button></li>
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/odette_wren.webp" alt="" width="480" height="640" loading="lazy"><b>Odette Wren</b><small>Restorasyon uzmanı</small></span><span class="f backside"><b>Odette Wren</b><span>Liman yakınındaki atölyesinde eski tabloları ve kırık eşyaları onarır. Hızlı düşünür ve Silas'a ilk günden meydan okur.</span></span></button></li>
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/the_moth.webp" alt="" width="480" height="640" loading="lazy"><b>The Moth</b><small>Gizemli hırsız</small></span><span class="f backside"><b>The Moth</b><span>Saltmere'in gece hırsızı. Kimse yüzünü görmedi; şehirde herkesin onun hakkında anlatacak bir hikâyesi var.</span></span></button></li>
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/barney_hollis.webp" alt="" width="480" height="640" loading="lazy"><b>Barney Hollis</b><small>Polis çavuşu</small></span><span class="f backside"><b>Barney Hollis</b><span>Silas'ın şehirdeki ilk dostu. Herkesi tanır, karısı Winnie'nin yemeklerini herkese över.</span></span></button></li>
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/nora_quill.webp" alt="" width="480" height="640" loading="lazy"><b>Nora Quill</b><small>Gazeteci</small></span><span class="f backside"><b>Nora Quill</b><span>The Herald'ın muhabiri. Bir haberin peşine düştü mü bırakmaz; soruları Silas'ınkiler kadar keskindir.</span></span></button></li>
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/hester_bramble.webp" alt="" width="480" height="640" loading="lazy"><b>Mrs. Bramble</b><small>Ev sahibesi, sahaf</small></span><span class="f backside"><b>Mrs. Bramble</b><span>Silas'ın ev sahibesi; alt katta küçük bir sahafı var. Kitaplarını da kiracılarını da aynı özenle düzenler.</span></span></button></li>
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/cornelius_webb.webp" alt="" width="480" height="640" loading="lazy"><b>Dr. Webb</b><small>Adli tıp uzmanı</small></span><span class="f backside"><b>Dr. Webb</b><span>Az konuşur, çok ölçer; kanıt olmadan hiçbir şeye "kesin" demez.</span></span></button></li>
+        <li><button class="flip" type="button" aria-pressed="false"><span class="f front"><img src="img/kadro/old_jonah.webp" alt="" width="480" height="640" loading="lazy"><b>Old Jonah</b><small>Fener bekçisi</small></span><span class="f backside"><b>Old Jonah</b><span>Yıllardır Saltmere fenerinde çalışan yaşlı bekçi. Az konuşur ama denizi herkesten iyi bilir.</span></span></button></li>
+      </ul>
+    </section>
+
+    <!-- Ücretsiz / Premium -->
+    <section class="section plans" id="premium" aria-labelledby="plan-baslik">
+      <div class="head">
+        <p class="kicker">HİKÂYEYE DEVAM</p>
+        <h2 id="plan-baslik">İlk dört sezon ücretsiz.</h2>
+        <p>A1'den B2'ye 56 bölüm ücretsiz. Son iki sezon ve büyük final Premium'la açılır. Bu baştan açıkça görünür; finalde sürpriz ödeme duvarı yok.</p>
+      </div>
+      <div class="plan-grid">
+        <article class="plan" data-tilt-soft>
+          <span class="plan-k">ÜCRETSİZ</span>
+          <h3>Her gün yeni vakalar</h3>
+          <p class="price">0 ₺</p>
+          <ul>
+            <li>A1, A2, B1 ve B2: 4 sezon, 56 bölüm</li>
+            <li>Her gün 2 yeni vaka açılır</li>
+            <li><b>Tekrarla aç:</b> Defter'inden kısa bir kelime tekrarıyla günde 4 vakaya kadar daha</li>
+            <li><b>Android'de:</b> isteğe bağlı ödüllü reklamla günde 10 vakaya kadar daha</li>
+            <li>Bitirdiğin vakalar her zaman açık, istediğin kadar yeniden oyna</li>
+          </ul>
+          <p class="plan-fine">Sahne ortasında, yanlış cevaptan sonra ya da tekrar sırasında asla reklam yok. iPhone sürümünde hiç reklam yok.</p>
+        </article>
+        <article class="plan gold" data-tilt-soft>
+          <span class="plan-k">SALTMERE PREMIUM</span>
+          <h3>Davanın sonu</h3>
+          <p class="price"><span class="launch">Çıkışa özel</span>244,99 ₺</p>
+          <p class="price-sub">İlk 2 hafta. Sonra 349,99 ₺. Tek seferlik satın alma, abonelik yok.</p>
+          <ul>
+            <li>C1 ve C2: son iki sezon, 28 bölüm, mahkeme ve büyük final</li>
+            <li>Günlük sınır yok: beklemeden istediğin kadar vaka</li>
+            <li>Android'de her yerde reklamsız (ilk dört sezon dahil)</li>
+            <li>Satın almayı Ayarlar'dan her zaman geri yükleyebilirsin</li>
+          </ul>
+          <p class="plan-fine">C1'e geçmek için B2 sınavını geçmen gerekir; satın alma sınavın yerine geçmez. Premium 18 yaş ve üzeri içindir. Ödeme App Store ya da Google Play üzerinden alınır.</p>
+          <span class="seal big" aria-hidden="true"></span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sorular -->
+    <section class="section faq" id="sorular" aria-labelledby="sss-baslik">
+      <div class="head">
+        <p class="kicker">KENAR NOTLARI</p>
+        <h2 id="sss-baslik">Aklındaki sorular.</h2>
+        <p>Cevabını bulamadığın bir şey varsa <a href="#iletisim">bize yaz</a>.</p>
+      </div>
+      <div class="faq-cols">
+        <div class="faq-group">
+          <h3>Oyun ve öğrenme</h3>
+          <details><summary>İngilizceyi hiç bilmiyorum. Başlayabilir miyim?</summary><p>Evet. Sezon 1 (A1) ilk kelimelerle ve kısa cümlelerle başlar. Anlamadığın her kelimeye dokunup Türkçesini görebilirsin. Açılıştaki seviye testinde "Hiç bilmiyorum" deyip doğrudan başlayabilirsin.</p></details>
+          <details><summary>Seviye testi nasıl? Zorunlu mu?</summary><p>Zorunlu değil. Test 12 kısa maddeden oluşur: karakterleri dinler, eksik kelimeyi ya da cümleyi yazarsın. Tahmin etmek yerine "Bilmiyorum, doğrusunu göster" diyebilirsin. Sonuç A1, A2 ya da B1 çıkar; B1'den başlarsan önceki sezonlar Hızlı Mod'la açılır.</p></details>
+          <details><summary>İngilizcem iyiyse hikâyenin başını kaçırır mıyım?</summary><p>Hayır. Baştan başlayıp ilk sezonları Hızlı Mod'da hızla geçebilir ya da kendi seviyendeki sezona geçip önceki sezonların özetine bakabilirsin. Bitirdiğin sezonlar Arşiv'de her zaman açık.</p></details>
+          <details><summary>Yanlış cevap verirsem ne olur?</summary><p>Hiçbir şey kaybetmezsin: can, ceza ya da bölümü baştan başlatma yok. Önce bir ipucu, sonra seçenekler gelir. Yanlış yaptığın kelimeler Defter'ine "tekrar" olarak eklenir ve sonra yeniden karşına çıkar.</p></details>
+          <details><summary>Bir sezon nasıl biter?</summary><p>Her sezonun son bölümü bir sınavdır. Geçince yeni sezon ve şehrin yeni semti açılır. Geçemezsen hangi konuları ve hangi bölümleri tekrar etmen gerektiği gösterilir; istediğin kadar yeniden girebilirsin, kazandıkların silinmez.</p></details>
+          <details><summary>Yalnızca dinlemek mi var, yazmak da var mı?</summary><p>İkisi de var. Bölümlerde dinleyip boşluk doldurursun, kelime ya da tam cümle yazarsın, şüphelilere İngilizce soru kurarsın. Seviye yükseldikçe kendi cümlelerini kurduğun ikna ve sorgu sahneleri gelir.</p></details>
+          <details><summary>İnternet gerekiyor mu?</summary><p>Hayır. Bölümler, sesler ve sahneler uygulamanın içinde; internet olmadan da oynayabilirsin.</p></details>
+        </div>
+        <div class="faq-group">
+          <h3>Premium, yaş ve gizlilik</h3>
+          <details><summary>Günde kaç vaka oynayabilirim?</summary><p>Ücretsiz planda her gün 2 yeni vaka açılır. Defter'indeki kelimelerle kısa bir tekrar yaparak ("Tekrarla aç") günde 4 vakaya kadar daha açabilirsin. Android'de isteğe bağlı ödüllü reklamla günde 10 vakaya kadar daha açılır. Premium'da günlük sınır yoktur. Bitirdiğin vakalar her zaman açıktır.</p></details>
+          <details><summary>Premium ne kadar, abonelik mi?</summary><p>Tek seferlik satın almadır, abonelik yoktur. Normal fiyatı 349,99 ₺; çıkışa özel ilk 2 hafta 244,99 ₺. C1 ve C2 sezonlarını açar, günlük vaka sınırını kaldırır ve Android'de reklamları kaldırır. Kesin fiyatı satın almadan önce mağaza gösterir.</p></details>
+          <details><summary>Reklam izleyerek C1–C2'yi açabilir miyim?</summary><p>Hayır. Reklam yalnızca ücretsiz sezonlarda ek vaka açar. C1 ve C2 yalnızca Premium ile açılır, ayrıca C1'e geçmek için B2 sınavını geçmen gerekir.</p></details>
+          <details><summary>Telefonumu değiştirirsem Premium'u kaybeder miyim?</summary><p>Hayır. Aynı App Store ya da Google Play hesabıyla Ayarlar → Saltmere Premium → "Satın alımımı geri yükle" demen yeterli.</p></details>
+          <details><summary>Kaç yaşında oynayabilirim?</summary><p>Saltmere 13 yaş ve üzeri içindir. 13–17 yaş arası oyuncular ücretsiz sezonların tamamını oynar ve ilerlemeleri yalnızca kendi telefonlarında kalır. Reklam, satın alma ve bulut yedeği 18 yaşında açılır.</p></details>
+          <details><summary>Hangi bilgilerimi topluyorsunuz?</summary><p>Hesap açmak, e-posta ya da şifre vermek gerekmez. Yetişkin oyuncuların ilerlemesi isimsiz bir hesapla yedeklenebilir. Ayrıntılar <a href="https://claude.ai/artifact/2cnxAXraoHcpkRSYqtHWJs">gizlilik politikasında</a>. Verilerini uygulamada Ayarlar → Hesap ve gizlilik → "Verilerimi sil" ile silebilirsin.</p></details>
+          <details><summary>Hangi telefonlarda ve ülkelerde?</summary><p>iPhone ve Android telefonlarda. İlk sürüm yalnızca Türkiye mağazalarında yayınlanıyor.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- İndir -->
+    <section class="section closing" id="indir" aria-labelledby="indir-baslik">
+      <div class="closing-card" data-tilt-soft>
+        <img class="closing-emblem" src="img/amblem.png" alt="" width="110" height="122" loading="lazy">
+        <h2 id="indir-baslik">Silas seni<br><em>bekliyor.</em></h2>
+        <p data-store-text>İlk vaka, ilk kelime, ilk ipucu. Saltmere çok yakında App Store ve Google Play'de.</p>
+        <div class="stores" data-stores>
+          <a class="store" data-store="ios" href="#indir"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18.5h4"/></svg><span><small>iPhone için</small>App Store</span><b class="soon">Yakında</b></a>
+          <a class="store" data-store="android" href="#indir"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5v17l14-8.5z"/></svg><span><small>Android için</small>Google Play</span><b class="soon">Yakında</b></a>
+        </div>
+        <p class="follow">Yeni sahneleri ilk sen gör:
+          <a href="https://www.instagram.com/saltmereenglish/" rel="noopener">Instagram</a> ·
+          <a href="https://www.youtube.com/@saltmereenglish" rel="noopener">YouTube</a> ·
+          <a href="https://www.tiktok.com/@saltmereenglish" rel="noopener">TikTok</a>
+        </p>
+      </div>
+    </section>
   </main>
-  <footer class="footer"><a class="brand" href="#baslangic"><img src="icon_32.png" width="32" height="32" alt=""><span>Saltmere</span></a><p>İngilizceyi hikâyenin içinde yaşa.</p><div class="social-links" aria-label="Sosyal medya"><a href="https://www.youtube.com/@saltmereenglish" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://www.instagram.com/saltmereenglish/" target="_blank" rel="noopener noreferrer">Instagram</a></div><p class="footer-note">Saltmere geliştirme aşamasında. Bu sayfa kayıt, ödeme veya e-posta toplamaz.</p></footer>
+
+  <footer class="foot" id="iletisim">
+    <div class="foot-brand"><img src="img/amblem.png" alt="" width="26" height="29" loading="lazy"><span>Saltmere: İngilizce Polisiye</span></div>
+    <nav aria-label="Alt menü">
+      <a href="https://claude.ai/artifact/2cnxAXraoHcpkRSYqtHWJs">Gizlilik politikası</a>
+      <a href="https://claude.ai/artifact/9mwd7zi7qJmWSkX4KnGiA2">Destek</a>
+      <span class="mail">saltmereenglish@gmail.com <button type="button" class="copy" data-copy="saltmereenglish@gmail.com">Kopyala</button></span>
+    </nav>
+    <p class="foot-note">Bu sayfa çerez kullanmaz; kayıt, ödeme ya da e-posta toplamaz. Yazı tipleri sitenin kendisinden yüklenir (SIL Open Font License). © 2026 Saltmere</p>
+  </footer>
 </body>
 </html>
