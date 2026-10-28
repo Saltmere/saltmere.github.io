@@ -4,7 +4,7 @@
 // Mağaza bağlantıları: uygulama yayınlanınca adresi yaz, "Yakında" etiketi kendiliğinden kalkar.
 const STORE = {
   ios: '',      // ör. https://apps.apple.com/tr/app/saltmere/id0000000000
-  android: '',  // https://play.google.com/store/apps/details?id=com.saltmere.app
+  android: 'https://play.google.com/store/apps/details?id=com.saltmere.app',
 };
 
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -23,7 +23,9 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   }
   if (STORE.ios || STORE.android) {
     const p = $('[data-store-text]');
-    if (p) p.textContent = 'İlk vaka, ilk kelime, ilk ipucu. Saltmere şimdi App Store ve Google Play\'de.';
+    const where = STORE.ios && STORE.android ? 'App Store ve Google Play\'de'
+      : STORE.android ? 'Google Play\'de (iPhone sürümü yakında)' : 'App Store\'da';
+    if (p) p.textContent = `İlk vaka, ilk kelime, ilk ipucu. Saltmere şimdi ${where}.`;
   }
 })();
 
