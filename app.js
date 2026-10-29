@@ -3,7 +3,7 @@
 
 // Mağaza bağlantıları: uygulama yayınlanınca adresi yaz, "Yakında" etiketi kendiliğinden kalkar.
 const STORE = {
-  ios: '',      // ör. https://apps.apple.com/tr/app/saltmere/id0000000000
+  ios: 'https://apps.apple.com/tr/app/id6823433186',
   android: 'https://play.google.com/store/apps/details?id=com.saltmere.app',
 };
 
