@@ -1,33 +1,13 @@
 'use strict';
 // Saltmere tanıtım sitesi. İçerik JS olmadan da tam görünür; hareket ve 3D yalnızca süsleme.
 
-// Mağaza bağlantıları: uygulama yayınlanınca adresi yaz, "Yakında" etiketi kendiliğinden kalkar.
-const STORE = {
-  ios: 'https://apps.apple.com/tr/app/id6823433186',
-  android: 'https://play.google.com/store/apps/details?id=com.saltmere.app',
-};
 
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
-// ——— Mağaza düğmeleri ———
-(() => {
-  for (const a of $$('.store')) {
-    const url = STORE[a.dataset.store];
-    if (!url) continue;
-    a.href = url;
-    a.rel = 'noopener';
-    a.classList.add('live');
-  }
-  if (STORE.ios || STORE.android) {
-    const p = $('[data-store-text]');
-    const where = STORE.ios && STORE.android ? 'App Store ve Google Play\'de'
-      : STORE.android ? 'Google Play\'de (iPhone sürümü yakında)' : 'App Store\'da';
-    if (p) p.textContent = `İlk vaka, ilk kelime, ilk ipucu. Saltmere şimdi ${where}.`;
-  }
-})();
+// Mağaza düğmeleri: bağlantılar doğrudan index.html'de (önizleme ve arama botları da görsün).
 
 // ——— Üst çubuk ———
 (() => {
